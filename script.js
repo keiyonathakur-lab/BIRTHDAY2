@@ -1,7 +1,6 @@
 const previewMode = false;
 const unlockTime = new Date("2026-04-19T18:30:00.000Z");
 const countdownGate = document.getElementById("countdownGate");
-const gateFooter = document.getElementById("gateFooter");
 const countdownParts = {
   days: document.getElementById("daysValue"),
   hours: document.getElementById("hoursValue"),
@@ -19,7 +18,6 @@ function pad(value) {
 function unlockSite() {
   countdownGate.classList.add("is-hidden");
   document.body.classList.remove("is-locked");
-  gateFooter.textContent = "Unlocked.";
   clearInterval(countdownTimer);
 }
 
