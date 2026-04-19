@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 18th Birthday</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="countdown-gate" id="countdownGate" aria-live="polite">
+    <div class="gate-card">
+      <h1 class="gate-title">happy birthday ridz :)</h1>
+      <p class="gate-copy">YO this site is a work in progress but use it after the party if you like it, love you!</p>
+      <div class="countdown-grid" id="countdownGrid">
+        <div class="countdown-unit">
+          <span class="countdown-value" id="daysValue" data-value="00">00</span>
+          <span class="countdown-label">days</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="hoursValue" data-value="00">00</span>
+          <span class="countdown-label">hours</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="countdown-value" id="minutesValue" data-value="00">00</span>
+          <span class="countdown-label">minutes</span>
+        </div>
+      </div>
+      <p class="gate-footer" id="gateFooter">Save the date . India Standard Time</p>
+    </div>
+  </section>
+
+  <div class="page-shell">
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
+
+    <main class="birthday-card">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <h1 class="pixel-message" id="messageTrigger" role="button" tabindex="0" aria-expanded="false" aria-controls="memoryReveal">
+            Happy Birthday
+          </h1>
+        </div>
+
+        <div class="bouquet-stage" aria-hidden="true">
+          <div class="bouquet-glow"></div>
+          <div class="bouquet">
+            <div class="wrap wrap-back"></div>
+            <div class="spike spike-a">
+              <span class="stem long-stem"></span>
+              <span class="blade blade-left"></span>
+              <span class="blade blade-right"></span>
+            </div>
+            <div class="spike spike-b">
+              <span class="stem long-stem"></span>
+              <span class="blade blade-left"></span>
+              <span class="blade blade-right"></span>
+            </div>
+            <div class="lavender lavender-a">
+              <span class="stem slim-stem"></span>
+              <span class="lav-bud bud-1"></span>
+              <span class="lav-bud bud-2"></span>
+              <span class="lav-bud bud-3"></span>
+              <span class="lav-bud bud-4"></span>
+            </div>
+            <div class="lavender lavender-b">
+              <span class="stem slim-stem"></span>
+              <span class="lav-bud bud-1"></span>
+              <span class="lav-bud bud-2"></span>
+              <span class="lav-bud bud-3"></span>
+              <span class="lav-bud bud-4"></span>
+            </div>
+            <div class="lavender lavender-c">
+              <span class="stem slim-stem"></span>
+              <span class="lav-bud bud-1"></span>
+              <span class="lav-bud bud-2"></span>
+              <span class="lav-bud bud-3"></span>
+              <span class="lav-bud bud-4"></span>
+            </div>
+            <div class="sprig sprig-left">
+              <span class="stem slim-stem"></span>
+              <span class="sprig-fan"></span>
+            </div>
+            <div class="sprig sprig-right">
+              <span class="stem slim-stem"></span>
+              <span class="sprig-fan"></span>
+            </div>
+            <div class="rose-cluster rose-left">
+              <span class="stem slim-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <span class="rose-bud rose-main"></span>
+              <span class="rose-bud rose-small rose-small-a"></span>
+              <span class="rose-bud rose-small rose-small-b"></span>
+              <span class="rose-bud rose-small rose-small-c"></span>
+            </div>
+            <div class="rose-cluster rose-right">
+              <span class="stem slim-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <span class="rose-bud rose-main"></span>
+              <span class="rose-bud rose-small rose-small-a"></span>
+              <span class="rose-bud rose-small rose-small-b"></span>
+              <span class="rose-bud rose-small rose-small-c"></span>
+            </div>
+            <div class="daisy daisy-left">
+              <span class="stem slim-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="flower-disc"></span>
+              <span class="daisy-petal p1"></span>
+              <span class="daisy-petal p2"></span>
+              <span class="daisy-petal p3"></span>
+              <span class="daisy-petal p4"></span>
+              <span class="daisy-petal p5"></span>
+              <span class="daisy-petal p6"></span>
+            </div>
+            <div class="daisy daisy-center">
+              <span class="stem slim-stem"></span>
+              <span class="flower-disc"></span>
+              <span class="daisy-petal p1"></span>
+              <span class="daisy-petal p2"></span>
+              <span class="daisy-petal p3"></span>
+              <span class="daisy-petal p4"></span>
+              <span class="daisy-petal p5"></span>
+              <span class="daisy-petal p6"></span>
+            </div>
+            <div class="purple-pom pom-center">
+              <span class="stem slim-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="pom-core"></span>
+              <span class="pom-ring ring-a"></span>
+              <span class="pom-ring ring-b"></span>
+              <span class="pom-ring ring-c"></span>
+            </div>
+            <div class="peony peony-left">
+              <span class="stem long-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <span class="peony-shell shell-a"></span>
+              <span class="peony-shell shell-b"></span>
+              <span class="peony-inner"></span>
+            </div>
+            <div class="peony peony-right">
+              <span class="stem long-stem"></span>
+              <span class="leaf leaf-left"></span>
+              <span class="leaf leaf-right"></span>
+              <span class="peony-shell shell-a"></span>
+              <span class="peony-shell shell-b"></span>
+              <span class="peony-inner"></span>
+            </div>
+            <div class="orange-orchid orchid-center">
+              <span class="stem slim-stem"></span>
+              <span class="orchid-petal top"></span>
+              <span class="orchid-petal left"></span>
+              <span class="orchid-petal right"></span>
+              <span class="orchid-petal bottom"></span>
+              <span class="orchid-core"></span>
+            </div>
+            <div class="wrap wrap-front"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="memory-reveal" id="memoryReveal" aria-hidden="true">
+        <div class="reveal-copy">
+          <h2>love you ridhima make this website a keepsake for your 18th birthday boss!</h2>
+          <p>
+            Click the photobooth frames below and drop in your favorite pictures.
+          </p>
+          <div class="reveal-details">
+            <span>photo booth edition</span>
+            <span>click frames to add pictures</span>
+          </div>
+        </div>
+
+        <div class="film-strip" id="filmStrip">
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-one" for="uploadOne">
+              <span>Add photo 01</span>
+            </label>
+            <input class="photo-input" id="uploadOne" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-two" for="uploadTwo">
+              <span>Add photo 02</span>
+            </label>
+            <input class="photo-input" id="uploadTwo" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-three" for="uploadThree">
+              <span>Add photo 03</span>
+            </label>
+            <input class="photo-input" id="uploadThree" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-four" for="uploadFour">
+              <span>Add photo 04</span>
+            </label>
+            <input class="photo-input" id="uploadFour" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-five" for="uploadFive">
+              <span>Add photo 05</span>
+            </label>
+            <input class="photo-input" id="uploadFive" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-six" for="uploadSix">
+              <span>Add photo 06</span>
+            </label>
+            <input class="photo-input" id="uploadSix" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-seven" for="uploadSeven">
+              <span>Add photo 07</span>
+            </label>
+            <input class="photo-input" id="uploadSeven" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-eight" for="uploadEight">
+              <span>Add photo 08</span>
+            </label>
+            <input class="photo-input" id="uploadEight" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-nine" for="uploadNine">
+              <span>Add photo 09</span>
+            </label>
+            <input class="photo-input" id="uploadNine" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-ten" for="uploadTen">
+              <span>Add photo 10</span>
+            </label>
+            <input class="photo-input" id="uploadTen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-eleven" for="uploadEleven">
+              <span>Add photo 11</span>
+            </label>
+            <input class="photo-input" id="uploadEleven" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-twelve" for="uploadTwelve">
+              <span>Add photo 12</span>
+            </label>
+            <input class="photo-input" id="uploadTwelve" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-thirteen" for="uploadThirteen">
+              <span>Add photo 13</span>
+            </label>
+            <input class="photo-input" id="uploadThirteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-fourteen" for="uploadFourteen">
+              <span>Add photo 14</span>
+            </label>
+            <input class="photo-input" id="uploadFourteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-fifteen" for="uploadFifteen">
+              <span>Add photo 15</span>
+            </label>
+            <input class="photo-input" id="uploadFifteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-sixteen" for="uploadSixteen">
+              <span>Add photo 16</span>
+            </label>
+            <input class="photo-input" id="uploadSixteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-seventeen" for="uploadSeventeen">
+              <span>Add photo 17</span>
+            </label>
+            <input class="photo-input" id="uploadSeventeen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-eighteen" for="uploadEighteen">
+              <span>Add photo 18</span>
+            </label>
+            <input class="photo-input" id="uploadEighteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-nineteen" for="uploadNineteen">
+              <span>Add photo 19</span>
+            </label>
+            <input class="photo-input" id="uploadNineteen" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+          <article class="photo-frame">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+            <div class="frame-hole"></div>
+            <label class="photo-slot photo-twenty" for="uploadTwenty">
+              <span>Add photo 20</span>
+            </label>
+            <input class="photo-input" id="uploadTwenty" type="file" accept="image/*">
+            <div class="frame-date">04 . 19 . 26</div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
